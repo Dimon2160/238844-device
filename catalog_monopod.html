@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+  </head>
+  <body>
+  	<header class="catalog_header">
+  		<div class="header_container">
+  			<div class="header_logo">
+  				<img src="#" class="header_logo_img" alt="DEVICE">
+  			</div>
+  			<div class="search_container">
+  				<form action="#" method="get">
+  					<label>
+  						<input type="text" name="search">
+  					</label>
+  				</form>
+  			</div>
+  			<div class="menu_list">
+  				<ul>
+  					<li>
+  						<a href="#" class="item_catalog">Каталог товаров</a>
+  					</li>
+  					<li>
+  						<a href="#" class="delivery">Доставка</a>
+  					</li>
+  					<li>
+  						<a href="#" class="warranty">Гарантия</a>
+  					</li>
+  					<li>
+  						<a href="#" class="contacts">Контакты</a>
+  					</li>
+  				</ul>
+  			</div>
+  			<div class="user_space">
+  				<a href="#" class="user_exit"></a>
+  				<a href="#" class="user_profile"></a>
+  			</div>
+  			<div class="user_crate">
+  				<a href="#" class="compare"></a>
+  				<a href="#" class="crate"></a>
+  			</div>
+  		</div>
+  	</header>
+  	<main>
+  		<div class="main_body catalog_monopod">
+  			<h1>Моноподы для селфи</h1>
+  			<div class="waypoints">
+  				<ul>
+  					<li>
+  						<a href="/index">Главная</a>
+  					</li>
+  					<li>
+  						<a href="#">Каталог</a>
+  					</li>
+  					<li>
+  						<a href="/catalog_monopod">Моноподы</a>
+  					</li>
+  				</ul>
+  			</div>
+  			<div class="sales_block">
+  				<div class="filter_block">
+  					<h3>Фильтр</h3>
+  					<form>
+  						<div class="price_ranage">
+  							<h4>Стоимость</h4>
+  						</div>
+  						<ul>
+  							<li>
+  								<div class="colour_header">Цвет</div> <!--костыль ибо Н4 не может быть элементом UL Дополнительно пришлось перенести в LI-->
+  							</li>
+  							<li>
+  								<input type="checkbox" name="black" checked>
+  								<div class="name_color">Черный</div>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="white">
+  								<div class="name_color">Белый</div>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="blue" checked>
+  								<div class="name_color">Синий</div>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="red" checked>
+  								<div class="name_color">Красный</div>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="pink">
+  								<div class="name_color">Розовый</div>
+  							</li>
+  						</ul>
+  						<h4>Bluetooth</h4>
+  						<label class="bluetooth_lable">
+            				<input type="radio" name="bluetooth" value="yes" checked>
+            				Есть
+          				</label>
+          				<label class="bluetooth_lable">
+            				<input type="radio" name="bluetooth" value="no">
+            				Нет
+          				</label>
+          				<button type="submit">Показать</button>
+  					</form>
+  				</div>
+  				<div class="sales_catalog_body">
+  					<div class="sales_catalog_header">
+  						<ul>
+  							<li>
+  								<div class="sales_catalog_word">Сортировка</div> <!--костыль ибо Н3 не может быть элементом UL Дополнительно пришлось перенести в LI-->
+  							</li>
+  							<li>
+  								<a href="#">По цене</a>
+  							</li>
+  							<li>
+  								<a href="#">По типу</a>
+  							</li>
+  							<li>
+  								<a href="#">По популярности</a>
+  							</li>
+  						</ul>
+  						<div class="min_max">
+  							<a href="#">max</a>
+  							<a href="#">min</a>
+  						</div>
+					</div>
+					<div class="sales_catalog_main">
+						<div class="sale_item_1">
+							<img src="#" class="sale_item_1" alt="Любительская селфи-палка">
+							<h2>Любительская селфи-палка</h2>
+							<div class="sale_price">500 руб.</div>
+						</div>
+						<div class="sale_item_2">
+							<img src="#" class="sale_item_2" alt="Професиональная селфи-палка">
+							<h2>Професиональная селфи-палка</h2>
+							<div class="sale_price">1500 руб.</div>
+						</div>
+						<div class="sale_item_3">
+							<img src="#" class="sale_item_3" alt="Непотопляемая селфи-палка">
+							<h2>Непотопляемая селфи-палка</h2>
+							<div class="sale_price">2500 руб.</div>
+						</div>
+						<div class="sale_item_4">
+							<img src="#" class="sale_item_4" alt="Селфи-палка Следуй за мной">
+							<h2>Селфи-палка "Следуй за мной"</h2>
+							<div class="sale_price">4900 руб.</div>
+						</div>
+					</div>
+					<div class="paginator">
+						<ul>
+							<li>
+								<a href="#">Назад</a>
+							</li>
+							<li>
+								<a href="#">1</a>
+							</li>
+							<li>
+								<a href="#">2</a>
+							</li>
+							<li>
+								<a href="#">3</a>
+							</li>
+							<li>
+								<a href="#">Вперед</a>
+							</li>
+						</ul>
+					</div>
+  				</div>
+  			</div>
+  		</div>	
+  	</main>
+  	<footer class="catalog-footer">
+  		<div class="footer_container">
+  			<div class="footer_logo">
+  				<img src="#" class="footer_logo_img" alt="DEVICE">
+  			</div>
+  			<p>г.Москва, ул. Строителей, 15</p>
+  			<div class="user_space">
+  				<a href="#" class="user_exit"></a>
+  			</div>
+  			<div class="user_crate">
+  				<a href="#" class="compare"></a>
+  				<a href="#" class="crate"></a>
+  			</div>
+  			<div class="footer_menu_list">
+  				<ul>
+  					<li>
+  						<a href="#" class="delivery">Доставка</a>
+  					</li>
+  					<li>
+  						<a href="#" class="warranty">Гарантия</a>
+  					</li>
+  					<li>
+  						<a href="#" class="contacts">Контакты</a>
+  					</li>
+  				</ul>
+  			</div>
+  			<a href="#" >Тел: +7 (800) 555-35-35</a>
+  		</div>
+  		<section class="footer-social">
+          	<p>Давайте дружить!</p>
+          	<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+         	<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          	<a class="social-btn social-btn-twitter" href="#">Твиттер</a>
+        </section>
+        <section class="footer-copyright">
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+  	</footer>
+    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  </body>
+</html>
